@@ -35,7 +35,7 @@ jobs:
           if ! grep -q "error" "plex-worker-ips.rsc"; then
             git config --local user.email "noreply@github.actions.bot"
             git config --local user.name "GitHub Actions"
-            git add cloudflare-ips-v*
+            git add plex-worker-ips.rsc
             git status
             git commit -m "Refreshed - $NOW"
           fi
