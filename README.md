@@ -2,6 +2,8 @@
 
 MikroTik firewall address lists for Plex worker IP address ranges. Refreshed daily at 05:30 UTC. The generated configuration file creates an IPv4 address list named **plex-worker-ips** which can be used in firewall filter/NAT/mangle rules.
 
+Developed and tested on RouterOS 7.18.2
+
 ## Usage
 
 Create a script to download **plex-worker-ips.rsc**, remove any existing entries in the **plex-worker-ips** address list, and import the new address list. Then, create a schedule to run the script at an appropriate time for your environment. You can either configure these manually, or download and import **plex-worker-ips-setup.rsc** to create them automatically. Read on for a sample script and schedule if you want to configure these manually. If you create the script and schedule manually, they require **ftp**, **read**, **write** and **test** permissions.
