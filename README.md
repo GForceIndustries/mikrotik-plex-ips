@@ -1,6 +1,6 @@
 # Plex Worker IP Address Lists for MikroTik Firewalls
 
-MikroTik firewall address lists for Plex worker IP address ranges. Refreshed daily at 05:30 UTC. The generated configuration file creates an IPv4 address list named **plex-worker-ips** which can be used in firewall filter/NAT/mangle rules.
+MikroTik firewall address lists for Plex worker IP address ranges. Refreshed daily at 05:30 UTC. The generated configuration file creates an IPv4 address list named **plex-worker-ips** which can be used in firewall rules.
 
 Developed and tested on RouterOS 7.18.2
 
