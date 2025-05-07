@@ -24,3 +24,11 @@ Create a script to download **plex-worker-ips.rsc**, remove any existing entries
 /system scheduler
 add interval=1d name=plex-worker-ips on-event=plex-worker-ips policy=ftp,read,write,test start-date=2025-04-23 start-time=06:45:00
 ```
+
+## Licence & Warranty
+
+You are free to use the provided MikroTik configuration files to aid in maintaining your firewall configuration. You are free also to clone the repository and adapt the code that generates the daily files to suit your needs.
+
+Configuration files are provided without warranty. While they are offered in good faith, no assurance is offered that they are appropriate for your environment and no liability will is accepted for any outcomes of their use. You are responsible for examining the configuration provided and ascertaining that it is suitable for your use case.
+
+While the daily configuration files are generated using information provided by Plex Inc., they are 100% unofficial and are not endorsed or maintained by Plex Inc.
