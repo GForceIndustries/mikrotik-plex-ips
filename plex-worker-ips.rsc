@@ -1,4 +1,4 @@
-# Generated on Thu Jun 25 06:48:41 2026 UTC
+# Generated on Fri Jun 26 06:49:50 2026 UTC
 /ip firewall address-list
 add list=plex-worker-ips address=44.207.218.81
 add list=plex-worker-ips address=34.239.73.157
